@@ -1,0 +1,20 @@
+{
+  "name": "o2znz-angelique-proxy",
+  "version": "1.0.0",
+  "description": "Angelique's proxy server for the o2znz front-end capstone project",
+  "main": "index.js",
+  "author": "Angelique Nehmzow <angelique@nehmzow.com>",
+  "license": "ISC",
+  "scripts": {
+    "start": "nodemon server/index.js"
+  },
+  "devDependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2"
+  },
+  "dependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
