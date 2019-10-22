@@ -3,6 +3,15 @@
   <title>o2znz</title>
 </head>
 <body>
-  <div id="photo-gallery">Proxy server</div>
+  <div id="photo-gallery"></div>
+  <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+  <script src="http://localhost:3001/bundle.js">
+  </script>
+  <script>
+    var listingId = location.pathname.replace(/\//g, '');
+    var props = {listingId: listingId, url: 'http://localhost:3001'};
+    ReactDOM.render(React.createElement(App, props, null), document.getElementById('photo-gallery'));
+  </script>
 </body>
 </html>
