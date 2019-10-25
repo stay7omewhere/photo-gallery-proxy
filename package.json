@@ -6,7 +6,7 @@
   "author": "Angelique Nehmzow <angelique@nehmzow.com>",
   "license": "ISC",
   "scripts": {
-    "start": "nodemon server/index.js"
+    "start": "node server/index.js"
   },
   "devDependencies": {
     "express": "^4.17.1",
